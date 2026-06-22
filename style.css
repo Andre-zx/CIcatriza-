@@ -983,7 +983,7 @@ html.pagina-inicial .welcome p{
 html.pagina-inicial .stats{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
-    gap:80px;
+    gap:50px;
     margin:50px 0;  
 }
 
