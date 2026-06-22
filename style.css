@@ -983,7 +983,7 @@ html.pagina-inicial .welcome p{
 html.pagina-inicial .stats{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
-    gap:40px;
+    gap:40px;  
     margin:50px 0;  
 }
 
@@ -3690,4 +3690,20 @@ html.pagina-inicial .stat-icon{
     width: 40px;
     height: 40px;
     opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    html.pagina-inicial .actions {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    html.pagina-inicial .action-card {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    html.pagina-inicial .action-card > img {
+        width: 45px;
+    }
 }
